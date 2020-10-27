@@ -12,21 +12,13 @@ const ListComponent = ()=>
         {name:'olyi'   },
         {name:'sandili'},
         {name:'rabbii' },
-        {name:'raseli' },
-        {name:'oly'   },
-        {name:'sandil'},
-        {name:'rabbi' },
-        {name:'rasel' },
-        {name:'olyi'   },
-        {name:'sandili'},
-        {name:'rabbii' },
-        {name:'raseli' }
+       
     ];
 
   
    return(<FlatList 
-   horizontal
-   showsHorizontalScrollIndicator={false}
+   //horizontal
+   //showsHorizontalScrollIndicator={false}
    keyExtractor={friend => friend.name}
    data={friends}
    renderItem ={
